@@ -18,7 +18,7 @@ echo "▶️  Starting x-ui in background..."
 ./x-ui &
 X_UI_PID=$!
 
-sleep 2
+sleep 5
 
 echo "▶️  Starting nginx in foreground on port $NGINX_PORT..."
 nginx -t
